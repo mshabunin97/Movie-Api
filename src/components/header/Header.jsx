@@ -7,6 +7,7 @@ import {
     UserIcon,
 } from '@heroicons/react/outline';
 import HeaderItem from './HeaderItem';
+import movieApiImage from './../../assets/movieapi.png'
 
 
 
@@ -23,7 +24,7 @@ const Header = () => {
             </div>
             <img
               className="object-contain"
-              src="/src/assets/movieapi.png"
+              src={movieApiImage}
               alt="hulu"
               width={200}
               height={150}
