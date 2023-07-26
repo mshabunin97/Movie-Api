@@ -17,7 +17,7 @@ const Nav = ({ onGenreClick }) => {
           </h2>
         ))}
       </div>
-      <div className="absolute top-0 right-0 bg-gradient-to-l from-[#06202A] h-8 w-1/13" />
+      <div className="absolute top-0 right-0 bg-gradient-to-l from-[#152b2b] h-8 w-1/12" />
     </nav>
   );
 };
